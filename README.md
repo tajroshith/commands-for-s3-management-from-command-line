@@ -49,7 +49,7 @@ upload: Videos\Captures\desktop.ini to s3://taj-a3.awsdemo.com/Captures/desktop.
 
 ```
 
-##To sync multiple buckets
+## To sync multiple buckets
 ```sh
 #aws s3 sync s3://taj-a3.awsdemo.com s3://taj-a1.awsdemo.com
 copy: s3://taj-a3.awsdemo.com/tokyo.png to s3://taj-a1.awsdemo.com/tokyo.png
@@ -58,7 +58,7 @@ copy: s3://taj-a3.awsdemo.com/desktop.ini to s3://taj-a1.awsdemo.com/desktop.ini
 copy: s3://taj-a3.awsdemo.com/cenerade.png to s3://taj-a1.awsdemo.com/cenerade.png
 
 ```
-##To remove/delete an object in a bucket
+## To remove/delete an object in a bucket
 
 ```sh
 #aws s3 rm s3://taj-a1.awsdemo.com/tokyo.png
