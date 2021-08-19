@@ -66,7 +66,7 @@ delete: s3://taj-a1.awsdemo.com/tokyo.png
 
 ```
 
-## To Remove/Delete all contents in non-empty bucket
+## To remove/delete all contents in non-empty bucket
 
 ```sh
 
