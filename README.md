@@ -17,7 +17,7 @@ Default output format : json
 2021-08-10 22:27:55 wordpress-web-el
 ```
 
-## To make a Bucket
+## To make a bucket
 ```sh
 #aws s3 mb s3://taj-a3.awsdemo.com
 make_bucket: taj-a3.awsdemo.com
