@@ -65,3 +65,16 @@ copy: s3://taj-a3.awsdemo.com/cenerade.png to s3://taj-a1.awsdemo.com/cenerade.p
 delete: s3://taj-a1.awsdemo.com/tokyo.png
 
 ```
+
+## To Remove/Delete all contents in non-empty bucket
+
+```sh
+
+#aws s3 rm s3://taj-a1.awsdemo.com --recursive
+delete: s3://taj-a1.awsdemo.com/flowers.jpg
+delete: s3://taj-a1.awsdemo.com/goal.jpg
+delete: s3://taj-a1.awsdemo.com/orbit.png
+delete: s3://taj-a1.awsdemo.com/mysterious.jpg
+delete: s3://taj-a1.awsdemo.com/pixar.png
+
+```
