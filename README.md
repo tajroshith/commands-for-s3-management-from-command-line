@@ -29,7 +29,7 @@ make_bucket: taj-a3.awsdemo.com
 remove_bucket: taj-a2.awsdemo.com
 ```
 
-## To List contents of a bucket
+## To list contents of a bucket
 ```sh
 #aws s3 ls s3://taj-a3.awsdemo.com
 2021-08-17 14:41:19    4017575 cenerade.png
